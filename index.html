@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Olios tamplate</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<!-- Sidebar -->
+	<div class="sidebar">
+		<div class="logo">
+			<a href="index.html">
+			<picture>
+				<source type="image/svg+xml" srcset="img/logo.svg">
+				<img src="img/logo.png" alt="Logo">	
+			</picture></a>
+		</div>
+		<div class="items">
+			<!-- item-1 -->
+			<a href="index.html" class="item item-1"></a>
+			<!-- item-2 -->
+			<a href="#" class="item item-2"></a>
+			<!-- iten-3 -->
+			<a href="#search-block" class="item item-3"></a>
+		</div>
+		<!-- item-4 -->
+		<div class="in">
+		    <a href="#">
+			    <picture>
+				    <source type="image/svg+xml" srcset="img/in.svg">
+				    <img src="img/in.png" alt="Menu">	
+			    </picture>
+		    </a>
+		</div>
+	</div>
+
+	<!-- Main -->
+	<div class="main">
+		<div class="main-item main-item_1">
+			<h2 class="text">olios</h2><br>
+			<h3 class="text">newest furniture shop template</h3>
+			<span>newest</span><br>
+			<button class="main-btn">view more</button>
+		</div>
+	</div>
+
+	<!-- Menu -->
+	<div id="main-menu" class="menu">
+
+		<!-- Hamburger-Close -->
+	<a class="hamburger" id="close-menu" href="#close">
+		<span></span>
+		<span></span>
+	</a>
+		<ul class="navigation">
+			<li><a href="living-room.html">
+				living room
+			<picture>
+				    <source type="image/svg+xml" srcset="img/menu/living-room.svg">
+				    <img src="img/menu/living-room.png" alt="Living room">
+			</picture>
+				</a></li>
+			<li><a href="#">
+				office
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/office.svg">
+				    <img src="img/menu/office.png" alt="Office">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				for kids
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/for-kids.svg">
+				    <img src="img/menu/for-kids.png" alt="For kids">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				kitchen
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/kitchen.svg">
+				    <img src="img/menu/kitchen.png" alt="Kitchen">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				accesories
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/accesories.svg">
+				    <img src="img/menu/accesories.png" alt="Accesories">
+			</picture>
+			</a></li>
+		</ul>
+		<div class="categories-link">
+			<a href="#">
+			show all categories</a>
+			<span class="link-line"></span>
+		</div>
+	</div>
+
+		<!-- Hamburger Open-->
+	<a class="hamburger" href="#main-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<!-- Search -->
+	<div id="search-block" class="search-block">
+		<form action="#">
+			<input type="text" class="input-search" placeholder="Search">
+			<a class="search-close" href="#close">&times;</a>
+			<p class="help-text"> Type product that you are looking for</p>
+		</form>
+		<div class="search-resoult">
+			<div class="recoult-product">
+				<img src="img/products/red-seat.png" alt="Red seat">
+				<span>Red seat</span>
+			</div>
+			<div class="recoult-product">
+				<img src="img/products/dark-seat.png" alt="Dark seat">
+				<span>Dark seat</span>
+			</div>
+		</div>
+	</div>
+
+
+</body>	
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Card of product</title>
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,900" rel="stylesheet">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    	<!-- Sidebar -->
+	<div class="sidebar">
+		<div class="logo">
+			<a href="index.html">
+			<picture>
+				<source type="image/svg+xml" srcset="img/logo.svg">
+				<img src="img/logo.png" alt="Logo">	
+			</picture></a>
+		</div>
+		<div class="items">
+			<!-- item-1 -->
+			<a href="index.html" class="item item-1"></a>
+			<!-- item-2 -->
+			<a href="#" class="item item-2"></a>
+			<!-- iten-3 -->
+			<a href="#search-block" class="item item-3"></a>
+		</div>
+		<!-- item-4 -->
+		<div class="in">
+		    <a href="#">
+			    <picture>
+				    <source type="image/svg+xml" srcset="img/in.svg">
+				    <img src="img/in.png" alt="Menu">	
+			    </picture>
+		    </a>
+		</div>
+	</div>
+		
+		<!-- Card of product -->
+	<div class="card-product">
+		<div class="photo-block">
+			<div class="like">
+				<span>495</span>
+				<picture>
+				    <source type="image/svg+xml" srcset="img/card/like.svg">
+				    <img src="img/card/like.png" alt="Likes">
+			    </picture>
+			</div>
+			<div class="photo-product">
+				<img src="img/card/seat.png" alt="Seat">
+			</div>
+			<div class="card-panel">
+				<div class="zoom">
+					<picture>
+				        <source type="image/svg+xml" srcset="img/card/plus.svg">
+				        <img src="img/card/plus.png" alt="Add">
+			        </picture>
+			        <picture>
+				        <source type="image/svg+xml" srcset="img/card/minus.svg">
+				        <img src="img/card/minus.png" alt="Remove">	
+			        </picture>
+				</div>
+				<div class="search">
+					<picture>
+				        <source type="image/svg+xml" srcset="img/card/map.svg">
+				        <img class="map-icon" src="img/card/map.png" alt="Map">
+			        </picture>
+			        <picture>
+				        <source type="image/svg+xml" srcset="img/search.svg">
+				        <img class="search-icon" src="img/search.png" alt="Search">	
+			        </picture>
+				</div>
+			</div>
+		</div>
+
+		<div class="card-header">
+		<div class="categories-header">
+				<h2>Products</h2>
+				<span>
+				    Living room
+				    <picture>
+				        <source type="image/svg+xml" srcset="img/menu/living-room.svg">
+				        <img src="img/menu/living-room.png" alt="Living room">
+			    </picture>
+			</span>
+			</div>
+
+			<div class="offer-text">
+			<h3><span>white seat</span> - office</h3>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> Ut fermentum interdum malesuada. Sed ornare posuere lobortis.</p>
+		</div>
+		
+		<!-- Product-setting -->
+		<div class="product-setting">
+			<div class="cost">
+				<span class="cost-head">cost</span>
+				<strong class="price">$65</strong>
+				<span><s>$90</s></span>
+			</div>
+			<div class="quantity">
+				<span class="quantity-head">quantity</span>
+				<input type="number" min="1" value="1" class="quantity-number">
+			</div>
+			<div class="card-btn">
+				<button class="add-btn">
+					add to card
+				</button>
+			</div>
+		</div>
+		</div>
+		
+		<!-- Recomended -->
+		<div class="recomended">
+			<span class="recomended-head">recomended</span>
+			<!-- 1блок  -->
+			<div class="recomended-good">
+				<img src="img/products/dark-seat.png" alt="Dark seat">
+				<h4>Dark seat</h4>
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+			<!-- 2блок -->
+			<div class="recomended-good">
+				<img src="img/products/blue-seat.png" alt="Blue seat">
+				<h4>Blue seat</h4>
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+			<!-- 3блок -->
+			<div class="recomended-good">
+				<img src="img/products/red-seat.png" alt="Red seat">
+				<h4>Red seat</h4>
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Menu -->
+	<div id="main-menu" class="menu">
+
+		<!-- Hamburger-Close -->
+	<a class="hamburger" id="close-menu" href="#close">
+		<span></span>
+		<span></span>
+	</a>
+		<ul class="navigation">
+			<li><a href="#">
+				living room
+			<picture>
+				    <source type="image/svg+xml" srcset="img/menu/living-room.svg">
+				    <img src="img/menu/living-room.png" alt="Living room">
+			</picture>
+				</a></li>
+			<li><a href="#">
+				office
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/office.svg">
+				    <img src="img/menu/office.png" alt="Office">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				for kids
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/for-kids.svg">
+				    <img src="img/menu/for-kids.png" alt="For kids">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				kitchen
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/kitchen.svg">
+				    <img src="img/menu/kitchen.png" alt="Kitchen">
+			</picture>
+			</a></li>
+			<li><a href="#">
+				accesories
+				<picture>
+				    <source type="image/svg+xml" srcset="img/menu/accesories.svg">
+				    <img src="img/menu/accesories.png" alt="Accesories">
+			</picture>
+			</a></li>
+		</ul>
+		<div class="categories-link">
+			<a href="#">
+			show all categories</a>
+			<span class="link-line"></span>
+		</div>
+	</div>
+
+		<!-- Hamburger Open-->
+	<a class="hamburger" href="#main-menu">
+		<span></span>
+		<span></span>
+		<span></span>
+	</a>
+
+	<!-- Search -->
+	<div id="search-block" class="search-block">
+		<form action="#">
+			<input type="text" class="input-search" placeholder="Search">
+			<a class="search-close" href="#close">&times;</a>
+			<p class="help-text"> Type product that you are looking for</p>
+		</form>
+		<div class="search-resoult">
+			<div class="recoult-product">
+				<img src="img/products/red-seat.png" alt="Red seat">
+				<span>Red seat</span>
+			</div>
+			<div class="recoult-product">
+				<img src="img/products/dark-seat.png" alt="Dark seat">
+				<span>Dark seat</span>
+			</div>
+		</div>
+	</div>
+
+</body>	
+</html>
